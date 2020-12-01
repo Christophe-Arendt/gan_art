@@ -1,7 +1,6 @@
 streamlit
 Pillow
-IPython.display
-matplotlib.pyplot
+matplotlib
 numpy
 io
 tensorflow
