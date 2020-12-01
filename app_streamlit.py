@@ -16,7 +16,7 @@ import io
 
 #mpl.rcParams['figure.figsize'] = (12,12)
 #mpl.rcParams['axes.grid'] = False
-os.environ['TFHUB_MODEL_LOAD_FORMAT'] = 'COMPRESSED'
+#os.environ['TFHUB_MODEL_LOAD_FORMAT'] = 'COMPRESSED'
 #import tensorflow as tf
 import tensorflow_hub as hub
 

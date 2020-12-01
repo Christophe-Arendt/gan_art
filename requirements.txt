@@ -1,6 +1,5 @@
 streamlit
 Pillow
-os
 IPython.display
 matplotlib.pyplot
 numpy
