@@ -1,6 +1,6 @@
 
 ##########################################################################
-#     EUtils
+#     Utils
 ##########################################################################
 
 
@@ -8,8 +8,6 @@ import PIL.Image
 import tensorflow as tf
 import numpy as np
 from io import BytesIO
-
-
 
 
 def tensor_to_image(tensor):
