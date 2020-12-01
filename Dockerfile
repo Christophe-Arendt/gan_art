@@ -26,7 +26,7 @@ ENV LANG=C.UTF-8
 RUN mkdir -p /root/.streamlit
 RUN bash -c 'echo -e "\
 [general]\n\
-email = \"\"\n\
+email = \"christophe.arendt@edu.escpeurope.eu\"\n\
 " > /root/.streamlit/credentials.toml'
 
 RUN bash -c 'echo -e "\
