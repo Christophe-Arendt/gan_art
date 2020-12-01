@@ -11,6 +11,5 @@ col2.image(style_image, use_column_width=True)
 
 # Sidebar image
 image = Image.open('data/christophe_lewagon_1.jpg')
-image = image.resize((150, 150))
-st.sidebar.image(image, caption='Sunrise by the mountains',use_column_width=False)
+st.sidebar.image(image, caption='caption',use_column_width=False)
 """

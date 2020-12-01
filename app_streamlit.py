@@ -5,8 +5,8 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
-import os
-import IPython.display as display
+#import os
+#import IPython.display as display
 import matplotlib.pyplot as plt
 import numpy as np
 from gan_art.utils import *
@@ -36,10 +36,13 @@ st.set_page_config(
 ##########################################################################
 
 style_dic = {'Choose' : 'Nothing',
-            'Van Gogh': 'data/van_gogh_1.jpg',
+            'Vincent Van Gogh - Self Portrait': 'data/van_gogh_1.jpg',
+            'Jackson Pollock': 'data/polloc.jpg',
+            'Vincent Van Gogh - The Starry Night': 'data/van_gogh_3.jpg',
             'Picasso': 'data/picasso_1.jpg',
             'Andy Warhol': 'data/warhol_1.jpg',
-            }
+            'Claude Monnet': 'data/monnet_1.jpg',
+            'Jean-Michel Basquiat': 'data/basquiat_1.jpg'}
 
 ##########################################################################
 #     Design Top
